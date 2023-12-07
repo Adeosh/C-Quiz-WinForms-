@@ -105,6 +105,7 @@ namespace C__Quiz_WinForms_
             askQuestion(questionNumber);
         }
 
+        #region Вопросы
         private void askQuestion(int qnum)
         {
             switch (qnum)
@@ -331,6 +332,7 @@ namespace C__Quiz_WinForms_
 
                     break;
             }
+            #endregion
         }
     }
 }
